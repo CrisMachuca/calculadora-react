@@ -20,8 +20,8 @@ const Calculator = () => {
   
     const calculateResult = () => {
       if (firstNumber && input && operation) {
-        const num1 = parseFloat(firstNumber); // Convertir a número de coma flotante
-        const num2 = parseFloat(input); // Convertir a número de coma flotante
+        const num1 = parseFloat(firstNumber); // Convertir a número decimal
+        const num2 = parseFloat(input); // Convertir a número decimal
         let newResult;
   
         switch (operation) {
