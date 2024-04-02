@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 #app {
   margin: 0;
   background-color: #FECC14;
   height: 100vh;
 
+}
+h1 {
+  text-align: center;
+  background-color: aliceblue;
+  border: 2px solid grey;
+  width: 100vw;
+  padding: 0.5em;
+  font-family: "Source Code Pro", monospace;
 }
 
 .calculator {
@@ -12,7 +22,11 @@
   border: none;
   border-radius: 5px;
   background-color:rgb(27, 27, 26);
-  
+  margin-top: 3em;
+  -webkit-box-shadow: 10px 11px 13px 0px rgba(0,0,0,0.76);
+-moz-box-shadow: 10px 11px 13px 0px rgba(0,0,0,0.76);
+box-shadow: 10px 11px 13px 0px rgba(0,0,0,0.76);
+
 }
 
 input[type="text"] {

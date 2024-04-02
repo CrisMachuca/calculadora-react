@@ -61,7 +61,8 @@ const Calculator = () => {
   
     return (
       <>
-        <h1>Calculadora</h1>
+        <h1>React Calculator</h1>
+        
         <div className="calculator">
           <input type="text" id="resultado" value={firstNumber + operation + input} disabled />
           <div className="buttons">
@@ -90,6 +91,7 @@ const Calculator = () => {
             <button className="red-button" onClick={calculateResult}>=</button>
           </div>
         </div>
+        
       </>
     );
   };
