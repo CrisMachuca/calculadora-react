@@ -1,5 +1,5 @@
 import React, { useState} from "react";
-import Counter from "./contador";
+
 
 const Calculator = () => {
     const [input, setInput] = useState("");
@@ -62,7 +62,6 @@ const Calculator = () => {
     return (
       <>
         <h1>Calculadora</h1>
-        <Counter />
         <div className="calculator">
           <input type="text" id="resultado" value={firstNumber + operation + input} disabled />
           <div className="buttons">
