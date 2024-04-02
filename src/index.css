@@ -12,6 +12,7 @@
   border: none;
   border-radius: 5px;
   background-color:rgb(27, 27, 26);
+  
 }
 
 input[type="text"] {
@@ -54,4 +55,7 @@ button:nth-child(19) {
   background-color: crimson;
   color: white;
   font-weight: bolder;
+}
+.red-button:hover {
+  background-color: rgb(190, 18, 53);
 }
